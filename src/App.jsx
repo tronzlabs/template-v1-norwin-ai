@@ -14,6 +14,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import { Privacy, Terms } from './pages/Legal';
 import NotFound from './pages/NotFound';
+import StartProjectOverlay from './components/StartProjectOverlay';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -50,6 +51,7 @@ export default function App() {
         </AnimatePresence>
       </main>
       {!hideFooter && <Footer />}
+      <StartProjectOverlay />
     </div>
   );
 }
