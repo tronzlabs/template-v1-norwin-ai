@@ -72,3 +72,8 @@ npm run lint      # eslint
 - Authentication and generation are mocked (client-side) to showcase UX flows.
 - Animations follow the spec: subtle page fades, staggered cards, smooth tab swaps
   using `layoutId`, skeleton shimmer during generation, and floating hero badges.
+
+## Branding
+
+- Template branding and attribution by Tronzlabs
+- Website: [tronzlabs.com](https://tronzlabs.com)
